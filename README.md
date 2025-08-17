@@ -22,7 +22,7 @@ meancalc
 > Para obter o resultado da média calculada, pressione a combinação
 'CTRL+D'.
 
-2. Por linha meio de argumentos
+2. Por meio de argumentos
 ```
 meancalc NUMERO [NUMERO]...
 ```
