@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:file-manager}",
+            "name": "Debug file-manager",
+            "program": "${workspaceFolder:file-manager}/.build/debug/file-manager",
+            "preLaunchTask": "swift: Build Debug file-manager"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:file-manager}",
+            "name": "Release file-manager",
+            "program": "${workspaceFolder:file-manager}/.build/release/file-manager",
+            "preLaunchTask": "swift: Build Release file-manager"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:file-manager}",
+            "name": "Debug meancalc",
+            "program": "${workspaceFolder:file-manager}/.build/debug/meancalc",
+            "preLaunchTask": "swift: Build Debug meancalc"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:file-manager}",
+            "name": "Release meancalc",
+            "program": "${workspaceFolder:file-manager}/.build/release/meancalc",
+            "preLaunchTask": "swift: Build Release meancalc"
+        }
+    ]
+}
